@@ -13,7 +13,7 @@ def main(argv):
 
 	#Обработка аргументов
 	try:
-		opts, args = getopt.getopt(argv, "hd:l:p:g:", ["date=", "login=", "password=", "g=", "group="])
+		opts, args = getopt.getopt(argv, "hd:l:p:g:", ["date=", "login=", "password=", "group="])
 	except getopt.GetoptError:
 		print ('Nashagai.py -d <YYYY-MM-DD> -l <login/email> -p <password> -g <group>')
 		sys.exit(2)
