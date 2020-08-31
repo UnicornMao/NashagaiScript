@@ -12,4 +12,4 @@ Arguments:
 
 -p, --password : set password
 
--g, --group    : set group (default = "Куратор Антон Паймин")
+-g, --group    : set group
